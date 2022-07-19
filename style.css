@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 
 
 }
@@ -76,12 +76,16 @@ body {
 
 /* menu bar  */
 
+
 .blogs {
     display: grid;
     grid-template-columns: 300px 1fr;
     column-gap: 15px;
     background-color: white;
     justify-content: center;
+    margin-bottom: 50px;
+    
+    
 
 }
 
@@ -122,16 +126,18 @@ body {
 .article {
     border: 2px solid rgba(128, 128, 128, 0.337);
     border-radius: 10px;
-    
+
 }
 
 .blog-info {
     margin-left: 15px;
 
 }
-.btn{
+
+.btn {
     margin-top: 20px;
 }
+
 .btn a {
     text-decoration: none;
     border: 1px solid black;
@@ -139,9 +145,10 @@ body {
     padding: 3px;
     color: black;
     font-weight: 700;
-    
+
 }
-.transfer-live{
+
+.transfer-live {
     font-weight: 700;
     margin-top: 30px;
 }
@@ -164,4 +171,28 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* footer  */
+footer {
+
+    width: 100%;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 444px
+}
+footer h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+hr{
+    width: 80%;
+    background-color: gray;
+}
+span{
+    margin: 0 30px;
+    color: grey;
+    font-weight: 700;
 }
