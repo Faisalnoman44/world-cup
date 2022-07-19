@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 
 
 }
@@ -121,17 +121,29 @@ body {
 
 .article {
     border: 2px solid rgba(128, 128, 128, 0.337);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    
 }
 
 .blog-info {
     margin-left: 15px;
 
 }
-
+.btn{
+    margin-top: 20px;
+}
 .btn a {
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+    font-weight: 700;
+    
+}
+.transfer-live{
+    font-weight: 700;
+    margin-top: 30px;
 }
 
 .article-bottom {
