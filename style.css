@@ -36,28 +36,35 @@ body {
     background-color: black;
     border-radius: 30px;
     margin-top: 50px;
-    animation: changeBg 10s linear  infinite  ;
+    animation: changeBg 10s linear infinite;
 }
+
 @keyframes changeBg {
-    0%{
+    0% {
         background-color: #fb1b07;
     }
-    20%{
+
+    20% {
         background-color: #81cc17;
     }
-    40%{
+
+    40% {
         background-color: #07fbd2;
     }
-    60%{
+
+    60% {
         background-color: #1f07fb;
     }
-    80%{
+
+    80% {
         background-color: #be07fb;
     }
-    100%{
+
+    100% {
         background-color: #fb1707;
     }
 }
+
 .banner-info {
 
 
@@ -99,7 +106,10 @@ body {
     color: white;
     margin: 5px;
 }
-
+.banner-image{
+    display: flex;
+    align-self: flex-end;
+}
 
 .banner-image img {
     width: 100%;
@@ -321,7 +331,7 @@ hr {
 
     body {
         box-sizing: border-box;
-       
+
     }
 
     .container {
@@ -333,7 +343,7 @@ hr {
         margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr;
-        height: 650px;
+        height: 100vh;
 
     }
 
@@ -374,7 +384,7 @@ hr {
     .banner-image img {
         width: 100%;
         padding-top: 0;
-        
+
 
 
     }
@@ -397,7 +407,7 @@ hr {
 
     .blog-image img {
         width: 100%;
-       
+
     }
 
     footer {
@@ -441,10 +451,12 @@ hr {
     .banner {
         height: 500px;
     }
-    .banner-image{
+
+    .banner-image {
         display: flex;
         align-self: flex-end;
     }
+
     .blogs {
 
         grid-template-columns: repeat(1, 1fr);
@@ -467,7 +479,7 @@ hr {
 
     .blog-image img {
         width: 100%;
-       
+
     }
 
     #unique {
