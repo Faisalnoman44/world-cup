@@ -131,6 +131,27 @@ body {
 
 }
 
+#upcoming {
+    text-align: center;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+#match {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.vs {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time {
+    font-weight: 100;
+}
+
 .blog-info {
     margin-left: 15px;
 
@@ -223,18 +244,25 @@ hr {
     grid-template-columns: repeat(6, 1fr);
     gap: 40px;
     color: grey;
-    padding: 0 50px;
+   
 
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: gray;
 }
 
 .social-icons {
     margin-top: 40px;
 
+
 }
 
 .icons {
-    font-size: 30px;
-    margin: 0 50px;
+    font-size: 25px;
+    margin: 0 20px;
+    color: aliceblue;
 }
 
 /* screen querie */
@@ -246,7 +274,8 @@ hr {
         margin: 0;
         padding: 0;
     }
-    body{
+
+    body {
         box-sizing: border-box;
     }
 
@@ -317,20 +346,24 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    footer{
+
+    footer {
+        width: 100%;
         height: 600px;
     }
-    
-    .footer-bottom{
+
+    .footer-bottom {
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         text-align: center;
 
     }
-    .social-icons{
+
+    .social-icons {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-       
+        grid-template-columns: repeat(3, 1fr);
+
         font-size: 40px;
     }
 }
@@ -338,14 +371,21 @@ hr {
 /* table queries */
 
 @media only screen and (max-width: 992px) and (min-width: 577px) {
-    body{
-        box-sizing: border-box;
+    *{
+        margin: 0;
+        padding: 0;
     }
-    .container{
+    body {
+        box-sizing: border-box;
+
+    }
+
+    .container {
         width: 100%;
     }
-    .blogs {
 
+    .blogs {
+        
         grid-template-columns: repeat(1, 1fr)
     }
 
@@ -358,16 +398,19 @@ hr {
 
     .articles {
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
     #unique {
         display: none;
     }
-.hidden{
-    display: flex;
-    justify-content: center;
-   
-}
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+
+    }
+
     .view-button {
         display: block;
         display: flex;
@@ -377,15 +420,19 @@ hr {
         width: 50px;
         height: 30px;
         font-size: 12px;
-        padding:  5px;
-        
+        padding: 5px;
+
     }
-    footer{
+
+    footer {
         width: 100%;
+        margin: 0;
     }
-    .footer-bottom{
+
+    .footer-bottom {
+        width: 100%;
         padding: 0 60px;
     }
 
-    
+
 }
