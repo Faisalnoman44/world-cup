@@ -36,8 +36,28 @@ body {
     background-color: black;
     border-radius: 30px;
     margin-top: 50px;
+    animation: changeBg 10s linear  infinite  ;
 }
-
+@keyframes changeBg {
+    0%{
+        background-color: #fb1b07;
+    }
+    20%{
+        background-color: #81cc17;
+    }
+    40%{
+        background-color: #07fbd2;
+    }
+    60%{
+        background-color: #1f07fb;
+    }
+    80%{
+        background-color: #be07fb;
+    }
+    100%{
+        background-color: #fb1707;
+    }
+}
 .banner-info {
 
 
