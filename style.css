@@ -39,8 +39,8 @@ body {
 }
 
 .banner-info {
-   
-    
+
+
     padding-left: 60px;
     color: white;
 }
@@ -67,12 +67,14 @@ body {
     transition: 0.2s;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     color: rgb(240, 220, 220);
     background: #fb0707;
-    box-shadow: 0 0 10px #fb0707,0 0 40px #fb0707,0 0 80px #fb0707;
+    box-shadow: 0 0 10px #fb0707, 0 0 40px #fb0707, 0 0 80px #fb0707;
     transition-delay: 0.3s;
 }
+
 .fa-arrow-right {
     color: white;
     margin: 5px;
@@ -90,7 +92,7 @@ body {
 /* menu bar  */
 
 
-.blogs {  
+.blogs {
     width: 85%;
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -125,14 +127,15 @@ body {
 
 
 }
-.menu-bar a:hover{
+
+.menu-bar a:hover {
     background-color: #bc0606;
 }
 
 
 /* article  */
 .articles {
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -183,7 +186,8 @@ body {
     font-weight: 700;
 
 }
-.btn a:hover{
+
+.btn a:hover {
     background-color: #ff0505;
     color: white;
 }
@@ -259,12 +263,12 @@ hr {
 }
 
 .footer-bottom {
-    
+
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 40px;
     color: grey;
-   
+
 
 }
 
@@ -308,14 +312,13 @@ hr {
         margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 0;
-        height: 785px;
+        height: 640px;
 
     }
 
     .banner-info {
         width: 334px;
-        height: 470px;
+        height: 334px;
         text-align: center;
         justify-items: center;
         font-size: 5px;
@@ -340,8 +343,8 @@ hr {
         width: 80%;
         padding-left: 50px;
         text-align: center;
-        
-        
+
+
 
     }
 
@@ -368,8 +371,10 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    .blog-image img{
+
+    .blog-image img {
         width: 100%;
+       
     }
 
     footer {
@@ -396,10 +401,11 @@ hr {
 /* table queries */
 
 @media only screen and (max-width: 992px) and (min-width: 577px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
     }
+
     body {
         box-sizing: border-box;
 
@@ -408,14 +414,15 @@ hr {
     .container {
         width: 100%;
     }
-    .banner{
+
+    .banner {
         height: 500px;
     }
 
     .blogs {
-        
+
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
 
     .menu-bar {
@@ -429,9 +436,10 @@ hr {
 
     .articles {
         grid-template-columns: repeat(2, 1fr);
-        
+
     }
-    .blog-image img{
+
+    .blog-image img {
         width: 100%;
     }
 
@@ -464,7 +472,7 @@ hr {
     }
 
     .footer-bottom {
-        
+
         padding: 0 60px;
     }
 
