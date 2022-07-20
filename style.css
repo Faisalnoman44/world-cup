@@ -246,6 +246,9 @@ hr {
         margin: 0;
         padding: 0;
     }
+    body{
+        box-sizing: border-box;
+    }
 
     .container {
         width: 100%;
@@ -335,6 +338,12 @@ hr {
 /* table queries */
 
 @media only screen and (max-width: 992px) and (min-width: 577px) {
+    body{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+    }
     .blogs {
 
         grid-template-columns: repeat(1, 1fr)
@@ -355,7 +364,9 @@ hr {
         display: none;
     }
 .hidden{
-   align-items: center;
+    display: flex;
+    justify-content: center;
+   
 }
     .view-button {
         display: block;
@@ -368,6 +379,12 @@ hr {
         font-size: 12px;
         padding:  5px;
         
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-bottom{
+        padding: 0 60px;
     }
 
     
