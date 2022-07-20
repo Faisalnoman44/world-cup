@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=El+Messiri&family=Poppins:wght@400;500&family=Trispace&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Cormorant SC', serif;
 
@@ -84,8 +89,8 @@ body {
     background-color: white;
     justify-content: center;
     margin-bottom: 50px;
-    
-    
+
+
 
 }
 
@@ -177,22 +182,41 @@ body {
 footer {
 
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
     background-color: black;
-    text-align: center;
-    height: 444px
+    height: 444px;
+    align-items: center;
 }
-footer h2{
+
+footer h2 {
     font-size: 40px;
     font-weight: 700;
 }
-hr{
+
+hr {
     width: 80%;
-    background-color: gray;
+    border: none;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.505);
+    margin: 50px 0;
+
 }
-span{
-    margin: 0 30px;
+
+span {
+    margin: 0 50px;
     color: grey;
     font-weight: 700;
+}
+
+.social-icons {
+    margin-top: 40px;
+
+}
+
+.icons {
+    font-size: 30px;
+    margin: 0 50px;
 }
