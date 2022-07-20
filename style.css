@@ -425,6 +425,9 @@ hr {
         grid-template-columns: repeat(2, 1fr);
         
     }
+    .blog-image img{
+        width: 100%;
+    }
 
     #unique {
         display: none;
