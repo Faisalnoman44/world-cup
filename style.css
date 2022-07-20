@@ -368,6 +368,9 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
+    .blog-image img{
+        width: 100%;
+    }
 
     footer {
         width: 100%;
@@ -411,7 +414,8 @@ hr {
 
     .blogs {
         
-        grid-template-columns: repeat(1, 1fr)
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 
     .menu-bar {
@@ -419,6 +423,8 @@ hr {
         grid-template-columns: repeat(3, 1fr);
         background-color: white;
         height: 100px;
+        margin-bottom: 40px;
+        align-items: center;
     }
 
     .articles {
