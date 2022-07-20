@@ -14,6 +14,8 @@ body {
 }
 
 /* banner section  */
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -37,7 +39,8 @@ body {
 }
 
 .banner-info {
-
+   
+    
     padding-left: 60px;
     color: white;
 }
@@ -56,20 +59,29 @@ body {
 .button {
     margin-top: 40px;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(205, 10, 10);
     border-radius: 3px;
     color: white;
     font-size: 25px;
     padding: 10px 15px;
+    transition: 0.2s;
+    cursor: pointer;
 }
-
+.button:hover{
+    color: rgb(240, 220, 220);
+    background: #fb0707;
+    box-shadow: 0 0 10px #fb0707,0 0 40px #fb0707,0 0 80px #fb0707;
+    transition-delay: 0.3s;
+}
 .fa-arrow-right {
     color: white;
     margin: 5px;
 }
 
+
 .banner-image img {
     width: 100%;
+    padding-top: 34px;
 }
 
 /* main section  */
@@ -78,7 +90,8 @@ body {
 /* menu bar  */
 
 
-.blogs {
+.blogs {  
+    width: 85%;
     display: grid;
     grid-template-columns: 300px 1fr;
     column-gap: 15px;
@@ -112,14 +125,14 @@ body {
 
 
 }
-
-#selected {
-    color: white;
-    background-color: rgb(197, 5, 5);
+.menu-bar a:hover{
+    background-color: #bc0606;
 }
+
 
 /* article  */
 .articles {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -170,6 +183,10 @@ body {
     font-weight: 700;
 
 }
+.btn a:hover{
+    background-color: #ff0505;
+    color: white;
+}
 
 .transfer-live {
     font-weight: 700;
@@ -213,6 +230,8 @@ body {
 }
 
 /* footer  */
+
+
 footer {
 
     width: 100%;
@@ -240,6 +259,7 @@ hr {
 }
 
 .footer-bottom {
+    
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 40px;
@@ -265,7 +285,7 @@ hr {
     color: aliceblue;
 }
 
-/* screen querie */
+/* screen responsive */
 
 /* mobile querie */
 
@@ -320,12 +340,14 @@ hr {
         width: 80%;
         padding-left: 50px;
         text-align: center;
+        
+        
 
     }
 
     .banner-image img {
         width: 100%;
-
+        padding-top: 0;
         padding-bottom: 500px;
 
 
@@ -383,6 +405,9 @@ hr {
     .container {
         width: 100%;
     }
+    .banner{
+        height: 500px;
+    }
 
     .blogs {
         
@@ -430,7 +455,7 @@ hr {
     }
 
     .footer-bottom {
-        width: 100%;
+        
         padding: 0 60px;
     }
 
